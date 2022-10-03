@@ -30,7 +30,7 @@ class Strip:
 			self._single_sound(car)
 			dur = self.gap/(car.speed/3.6)
 			print(dur)
-			# sleep(dur)
+			sleep(dur)
 		else:
 			self._single_sound(car)
 		
